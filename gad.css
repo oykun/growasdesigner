@@ -1,0 +1,21 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+body {
+	font-family: Arial;
+	padding: 2rem;
+}
+h1, h2, h2, h4, h5, p {
+	line-height: 1.5rem;
+	font-size: 1rem;
+}
+a {
+	color: #111;
+}
+a:hover {
+	text-decoration: line-through;
+}
+header:hover p, footer:hover {
+	opacity: 100;
+}
