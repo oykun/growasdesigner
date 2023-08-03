@@ -38,8 +38,6 @@ header:hover h2, footer:hover {
 	max-width: 700px;
 }
 
-
-
 .notepad {
   position: relative;
   margin: 100px auto;
@@ -50,9 +48,10 @@ header:hover h2, footer:hover {
   box-shadow: 0 4px 4px rgba(0,0,0,0.2);
   transform: rotate(1.5deg);
   font-family: 'Edu TAS Beginner', cursive;
+  color: #212121;
 }
 .notepad p {
-  font-size: 1.2rem !important;
+  font-size: 1.3rem !important;
   line-height: 1.7rem !important;
 }
 
@@ -66,10 +65,4 @@ header:hover h2, footer:hover {
   background: url('paper.jpeg');
   box-shadow: 0 10px 4px rgba(black, 0.2);
   z-index: -1;
-}
-
-h3 {
-  font-size: 2em;
-  font-family: Helvetica;
-  color: #323232;
 }
