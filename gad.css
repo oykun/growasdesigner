@@ -47,6 +47,11 @@ header:hover h2, footer:hover {
   background-size: 100%, 100% $linespace + 1px;
   box-shadow: 0 4px 4px rgba(0,0,0,0.2);
   transform: rotate(1.5deg);
+  font-family: 'Edu TAS Beginner', cursive;
+}
+.notepad p {
+  font-size: 1.2rem !important;
+  line-height: 1.7rem !important;
 }
 
 .notepad:before {
