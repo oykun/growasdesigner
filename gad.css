@@ -34,7 +34,9 @@ header:hover h2, footer:hover {
 	opacity: 1;
 }
 
-
+.maxw {
+	max-width: 700px;
+}
 
 
 
