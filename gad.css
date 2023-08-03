@@ -19,15 +19,50 @@ h1, h2, h2, h4, h5 {
 }
 a {
 	color: #1a1a1a;
-	opacity: 0.7;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:hover {
 	opacity: 1;
+}
+a.button {
+	text-decoration: none !important;
 }
 footer {
 	text-transform: uppercase;
 }
 header:hover h2, footer:hover {
 	opacity: 1;
+}
+
+
+
+
+
+.notepad {
+  position: relative;
+  margin: 100px auto;
+  background-color: #F6F6F6;
+  @include background(linear-gradient(top, rgba(#F6F6F6, 0), #FCFCFC), linear-gradient(top, rgba(#F6F6F6, 1), rgba(#F6F6F6, 1) $linespace, #EAEAEA $linespace, #EAEAEA $linespace + 1px));
+
+  background-size: 100%, 100% $linespace + 1px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+  transform: rotate(1.5deg);
+}
+
+.notepad:before {
+  content: '';
+  height: 47px;
+  width: 100%;
+  position: absolute;
+  top: -47px;
+  left: 0;
+  background: url('paper.jpeg');
+  box-shadow: 0 10px 4px rgba(black, 0.2);
+  z-index: -1;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: Helvetica;
+  color: #323232;
 }
